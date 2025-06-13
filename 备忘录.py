@@ -55,10 +55,10 @@ def main():
     while True:
         print("-----------menu-----------")
         print("添加任务、重置任务状态  【输入1】")
-        print("查看任务             【输入2】")
+        print("查看任务               【输入2】")
         print("标记任务为完成         【输入3】")
-        print("删除任务             【输入4】")
-        print("退出                【输入5】")
+        print("删除任务               【输入4】")
+        print("退出                  【输入5】")
         choice=int(input(">>>"))
         if choice==1:
             add_task()
